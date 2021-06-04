@@ -1,5 +1,5 @@
 # Model and simulation of an open tree robot
-## CentraleSupelec - Elective course - 2020
+## CentraleSupélec - Elective course - 2020
 ### Interactive Robotic Systems
 
 Professor: Mathieu Grossard
@@ -8,17 +8,9 @@ Students:
 - Vítor ALBUQUERQUE MARANHÃO RIBEIRO
 
 ### Introduction 
-This code performs the modelling of an open tree robot with revolute joints
-developed by the CEA Laboratory.
+This code was developed as a final project for the "Interactive Robotic Systems" course at CentraleSupélec. The project consisted of the modelling of an open tree robot with revolute joints developed by the CEA Laboratory.
 
-### SIMULINK File
-The Simulink file performs the modelling and the control of the robot,
-Solving the questions 17, 19 and 20 of TD2.
-
-Before running the Simulink file,
-run the "init.m" Matlab script to initialize the model's parameters
-
-### MATLAB Code
+### MATLAB Code ([Matlab_model.m](https://github.com/vitoramr/Open_tree_robot_modelling/blob/main/Matlab_model.m))
 The code's structure is divided into 5 sections:
 
 1. Parameters Initialization
@@ -45,3 +37,11 @@ The questions 17, 19 and 20 are solved in the Simulink file also attached
 
 5. Auxiliary functions
    It contains all mathematical functions used to help during calculations
+
+
+### SIMULINK File ([Simulink_model_and_control.slx](https://github.com/vitoramr/Open_tree_robot_modelling/blob/main/Simulink_model_and_control.slx))
+The Simulink file performs the modelling and the control of the robot,
+Solving the questions 17, 19 and 20 of TD2.
+
+Before running the Simulink file,
+run the "init.m" Matlab script to initialize the model's parameters
