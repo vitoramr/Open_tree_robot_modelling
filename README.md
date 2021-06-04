@@ -26,22 +26,20 @@ Summary:
 - Inverse kinematic model (questions 9 to 11)
 - Dynamic model (questions 12 to 17)
 - Trajectory generation in the joint space (question 18)
-   
-The questions 17, 19 and 20 are solved in the Simulink file also attached
+- The questions 17, 19 and 20 are solved in the Simulink file also attached
 
 3. TD's Functions
-   It contains all the functions that were developed for computing the questions
+- It contains all the functions that were developed for computing the questions
 
 4. Plotting functions
-   It contains all the functions that are used to plot results
+- It contains all the functions that are used to plot results
 
 5. Auxiliary functions
-   It contains all mathematical functions used to help during calculations
+- It contains all mathematical functions used to help during calculations
 
 
 ### SIMULINK File ([Simulink_model_and_control.slx](https://github.com/vitoramr/Open_tree_robot_modelling/blob/main/Simulink_model_and_control.slx))
 The Simulink file performs the modelling and the control of the robot,
 Solving the questions 17, 19 and 20 of TD2.
 
-Before running the Simulink file,
-run the "init.m" Matlab script to initialize the model's parameters
+Before running the Simulink file, run the [init.m](https://github.com/vitoramr/Open_tree_robot_modelling/blob/main/init.m) Matlab script to initialize the model's parameters
